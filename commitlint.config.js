@@ -6,14 +6,14 @@ const Configuration = {
   extends: ['@commitlint/config-conventional'],
   
   rules: {
-			2,
+		[	2,
 			'always',
 			[
 				'build',
 				'chore',
 				'ci',
 				'docs',
-        'doc',
+                                'doc',
 				'feat',
 				'fix',
 				'perf',
@@ -22,6 +22,7 @@ const Configuration = {
 				'style',
 				'test',
 			],
+	  ],
   },
  
 };
