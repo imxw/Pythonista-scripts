@@ -11,5 +11,5 @@ jobs:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v4
         with:
-          configFile: ${{ github.workspace }}/commitlint.config.js          
+          configFile: ${{ github.workspace }}/build/ci/commitlint.config.js          
 
